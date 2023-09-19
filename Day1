@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=1;i<=t;i++)
+	{
+	  int X=5;
+	  int Y=10;
+	  int x,y,z;
+	  cin>>x;
+	  cin>>y;
+	  cin>>z;
+	  int total=(X*x+Y*y)/z;
+	  cout<<total<<endl;
+	}
+	return 0;
+}
