@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int t,X,Y;
+	cin>>t;
+	
+	for(int i=0;i<=t;i++)
+	{
+	    cout<<"Enter the no. of student :"<<endl;
+    	cin>>X;
+	    cout<<"Enter no of chairs:"<<endl;
+	    cin>>Y;
+	    
+	    if(Y==X)
+	    {
+	        cout<<"No chairs are required"<<endl;
+	    }
+	    else if(X>Y)
+	    {
+	        cout<<X-Y<<" more chairs required"<<endl;
+	    }
+	    else
+	    {
+	       cout<<"Chairs are enough"<<endl; 
+	    }
+	    
+	}
+	return 0;
+}
