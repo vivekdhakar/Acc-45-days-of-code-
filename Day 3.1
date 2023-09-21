@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x,y,n;
+    cout<<"The daily goals of chef: ";
+    cin>>x;
+    cout<<"The no. of chocoltes he actually sells: ";
+    cin>>y;
+    for(int i;i<=n;i++)
+    {
+        if(x>=y)
+        {
+            cout<<y<<" rupees"<<endl;
+        }
+        else
+        {
+            cout<<x+((y-x)*2)<<" rupees"<<endl;
+        }
+        
+    }
+
+    return 0;
+}
